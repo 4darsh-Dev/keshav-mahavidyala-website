@@ -1,6 +1,12 @@
 # keshav-mahavidyala-website
 Keshav Mahavidyala college university of delhi website
 
+## Screenhosts
+
+
+![Screenshot 2024-11-25 205108](https://github.com/user-attachments/assets/19e1dde9-2bde-4faf-8fe0-34327b8f9f9a)
+![Screenshot 2024-11-25 205346](https://github.com/user-attachments/assets/a45b16cc-ad71-4f5c-99e2-bde516f587ab)
+![Screenshot 2024-11-25 205557](https://github.com/user-attachments/assets/99e32916-f858-445b-8486-520db99c42be)
 # Keshav Mahavidyalaya Admission Form
 
 Welcome to the Keshav Mahavidyalaya Admission Form project! This is a modern, responsive, and visually appealing application that allows prospective students to submit their admission applications to the college.
