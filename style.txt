@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); 
+* { margin: 0; padding: 0; } 
+:root { --base-font: poppins, sans-serif; --head-font: Montserrat, sans-serif; --hack-font: Anta, Montserrat, sans-serif; --dark-pink: #98257b; --white: #fff; }
+ nav { width: 100%; height: 64px; background-color: var(--dark-pink); display: flex; justify-content: center; align-items: center; }
+ li a { color: var(--white); font-family: sans-serif, monospace; font-size: 18px; text-decoration: none; } 
+ li a:hover { border-bottom: 2px solid var(--white); } 
+ ul { list-style-type: none; display: flex; flex-direction: row; gap: 24px; } 
+ ol { list-style-type: decimal; } 
+ /* h1{ font-size: 28px; font-family: sans-serif, monospace; color: rgb(136, 16, 235); text-align: center; } */ 
+ body { height: 100vh; width: 100vw; /* border: 2px solid red; */ } 
+ .main-c { height: 100vh; width: 100%; /* background:transparent; */ display: flex; flex-direction: row; justify-content: center; align-items: center; background-image: url("/assets/keshav-img1.jpeg"); background-repeat: no-repeat; background-size: cover; } 
+ .container { height: 80vh; width: 70vw; background: transparent; display: flex; flex-direction: row; justify-content: center; align-items: center; } 
+ .sub-c { height: 50%; width: 63%; /* background: white; */ } 
+ #head-home { font-size: 48px; font-family: var(--hack-font); color: var(--white); text-align: center; opacity: 1.2; position: relative; top: 3rem; text-shadow: 4px 4px 4px black; } 
+ #head-home-sub { font-size: 18px; font-family: var(--head-font); color: var(--white); margin: 2rem auto; text-align: center; opacity: 0.9; } 
+ .home-btn { width: auto; display: flex; flex-direction: row; justify-content: center; position: relative; top: 5rem; } 
+ .register-btn { text-decoration: none; padding: 18px 36px !important; border-radius: 6px; color: var(--white); font-size: 20px; font-weight: 600; background-color: var(--dark-pink); font-family: var(--head-font); transition: background-color 0.3 ease; } 
+ .register-btn:hover { box-shadow: 0 0 25px var(--white); } 
+ @layer about { 
+    #about { width: 100%; height: 100vh; background: var(--white); display: flex; flex-direction: row; align-items: center; justify-content: center; background-color: var(--dark-pink); } 
+    .ab-first { width: 60vw; height: 400px; /* background-color: rebeccapurple; */ padding-left: 0 2rem !important; } 
+    .ab-first h2 { font-size: 28px; font-family: var(--head-font); margin: 2rem 0 !important; color: var(--white); border-bottom: 3px solid black; width: 23rem; } 
+    .about-text { font-family: var(--base-font); display: flex; flex-direction: row; align-items: center; justify-content: center; width: 40vw; line-height: 1.8; color: var(--white); }
+     .ab-second { width: 400px; height: 400px; /* background-color: blue; */ background-image: url("assets/keshav-principal.jpg"); border-radius: 50%; } 
+     .ab-second img { height: 500px; width: auto; } } 
+     .academic-calendar { margin-top: 20px; margin: 4rem 0; } 
+     .academic-calendar h2 { text-align: center; margin-bottom: 20px; font-family: var(--hack-font); } 
+     .academic-calendar table { border-collapse: collapse; background-color: #f2f2f2; border-radius: 5px; overflow: hidden; padding: 0 4rem !important; /* margin-left: 5rem; */ margin: 0 auto; max-width: 85%; } 
+     .academic-calendar th, .academic-calendar td { padding: 12px; text-align: left; } 
+     .academic-calendar th { background-color: #333; color: #fff; font-family: var(--head-font); } 
+     .academic-calendar td { border-bottom: 1px solid #ddd; font-family: var(--base-font); } 
+     .academic-calendar tbody tr:nth-child(even) { background-color: #f9f9f9; } 
+     .academic-calendar tbody tr:hover { background-color: #e2e2e2; } 
+     .academic-calendar tbody tr:last-child { border-bottom: 2px solid #333; }
+      .academic-calendar tbody tr:hover td { transition: background-color 0.3s ease; } 
+      .academic-calendar tbody tr:hover td:nth-child(1), .academic-calendar tbody tr:hover td:nth-child(2), .academic-calendar tbody tr:hover td:nth-child(3) { background-color: #ccc; }
+ @layer register { 
+    #register { width: auto; height: 850px; padding: 6rem auto; background-color: var(--dark-pink); } #register h2 { font-size: 32px; font-family: var(--hack-font); color: white; padding: 2rem 0 !important; padding-left: 4rem !important; } 
+    .reg-div { display: flex; flex-direction: row; gap: 6rem; } 
+    .reg-form { width: 50%; /* background-color: red; */ display: flex; justify-content: center; }
+     .reg-img { width: 50%; height: 400px; background-image: url("assets/keshav-registration.png"); background-size: contain; background-repeat: no-repeat; /* background-color: blue; */ } 
+     .reg-img img { height: 600px; } 
+     #my-form { width: 500px; height: auto; /* background-color: blue; */ } 
+     .form-items { width: 24rem; height: 2rem; border-radius: 6px; font-family: sans-serif; padding-left: 6px !important; } 
+     .form-labels { display: block; font-size: 16px; font-family: var(--base-font); color: var(--white); }
+      .form-c1 { width: auto; margin: 6px 0 !important; } 
+      .submit-btn-box { width: 8rem; /* background-color: red; */ display: flex; justify-content: center; position: relative; top: 2rem; left: 8rem; } 
+      #submit-btn { color: var(--white); background-color: #4b1dee; font-size: 18px; width: 8rem; height: 42px; border-radius: 6px; border: 0px solid #4b1dee; } 
+      #submit-btn:hover { box-shadow: 0 0 25px #4b1dee; } #tands { font-family: var(--base-font); font-size: 18px; color: var(--white); display: inline; } 
+      #tands span { color: rgb(93, 196, 8); text-decoration: underline; } } 
+      .academic-units { background-color: #f0f0f0; padding: 40px 0; text-align: center; max-height: 400px; } 
+      .academic-units h2 { font-size: 2em; margin-bottom: 20px; } 
+      .container { display: flex; flex-wrap: wrap; justify-content: space-around; max-width: 1000px; margin: 0 auto; } 
+      .unit { width: 220px; background-color: #fff; margin: 10px; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease-in-out; }
+       .unit:hover { transform: scale(1.05); background-color: var(--dark-pink); color: var(--white); } 
+       .unit a { text-decoration: none; color: #333; font-weight: bold; transition: color 0.3s ease-in-out; } 
+       .unit a:hover { color: #666; } 
+       .unit p { margin-top: 10px; font-size: 0.9em; line-height: 1.5; font-family: var(--base-font); } footer { background-color: #333; color: #fff; padding: 20px 0; } 
+       .footer-content { display: flex; justify-content: space-around; align-items: center; } 
+       .logo-box img { width: 80px; height: auto; } .logo-box p { margin-top: 10px; font-size: 1.2em; } 
+       .contact-links a { display: inline-flex; justify-content: center; align-items: center; width: 40px; height: 40px; background: transparent; border: 2px solid var(--white); border-radius: 50%; font-size: 20px; color: var(--white); text-decoration: none; margin: 6px 15px 6px 0; }
+        .contact-links a:hover { background: var(--white); color: #081b29; box-shadow: 0 0 20px var(--dark-pink); transform: scale(1.01) translateY(-4px); } 
+    .copyright { text-align: center; }
+    .top { position: fixed; right: 2.2rem; bottom: 2.2rem; } 
+    .top i { font-size: 20px; padding: 10px; border-radius: 0.5rem; color: var(--white); background-color: var(--dark-pink); } 
+    .last-text { /* background-color: var(--dark-pink); */ color: var(--white); margin: 2rem auto; } 
+    .last-text p { text-align: center; margin-top: 15px; } 
+    .last-text-link { color: var(--white); text-decoration: none; font-family: var(--hack-font); } 
+    .last-text-link:hover { text-decoration: underline; cursor: pointer; } #heart { color: red; }
